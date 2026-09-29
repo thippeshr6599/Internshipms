@@ -21,13 +21,7 @@ body,
   height: 100vh;
   padding: 55px 100px;
   overflow: hidden;
-        background: linear-gradient(
-    115deg,
-    #556a94 0%,
-    #8498b7 35%,
-    #d3d9e2 65%,
-    #ffffff 100%
-  );
+  background: linear-gradient(270deg, #FFFFFF 35%, #566B94 93%);
 }
 
 .login-Maincontainer {
