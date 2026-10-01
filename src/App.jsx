@@ -1,10 +1,21 @@
 import React from 'react'
-import { Mainloginpage } from './Components-Loginpage/Mainloginpage'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Mainloginpage } from './Components-Loginpage/Mainloginpage';
+import { OTPforgetpassword } from './Components-Loginpage/OTPforgetpassword';
 
-export default function App() {
-  return (
-    <div>
-      <Mainloginpage/>
-    </div>
-  )
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Mainloginpage/>,
+  },
+  {
+    path:"/OTPforgetpassword",
+    element: <OTPforgetpassword/> ,
+  }
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
 }
+
+export default App;
