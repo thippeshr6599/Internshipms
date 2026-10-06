@@ -1,15 +1,18 @@
 import React, { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import "../Components-Loginpage/OTPforgetpassword.css";
 import GraduateCap from "../assets/Mainlogin/Mainlogin logo.png";
-import Otpforgetmainimage from "../assets/Mainlogin/otpforgetmainimage.png";
+import Otpforgetmainimage from "../assets/Mainlogin/OTPforgetpasswordmainimage.png";
 import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
 import Rightarrowotpforget from "../assets/Mainlogin/Right arrow imsforgetotp.png";
 import Endtoendforgetotp from "../assets/Mainlogin/Endtoendlock forgetotp.png";
 import Secureforgetotp from "../assets/Mainlogin/Secureforgetotp.png";
-export const OTPforgetpassword = () => {
 
-  const [otp, setOtp] = useState(["", "", "", "", "", ""]);
+export const OTPforgetpassword = () => {
+   const [otp, setOtp] = useState(["", "", "", "", "", ""]);
+  const [errors, setErrors] = useState({});
   const inputRefs = useRef([]);
+  const navigate = useNavigate();
 
   const handleChange = (value, index) => {
     if (!/^\d?$/.test(value)) return;
@@ -32,16 +35,18 @@ export const OTPforgetpassword = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    let newErrors = {};
     const code = otp.join("");
 
     if (code.length !== 6) {
-      alert("Please enter the 6-digit verification code.");
-      return;
+      newErrors.otp = "Please enter the 6-digit verification code *";
     }
+    setErrors(newErrors);
 
-    console.log("OTP:", code);
+    if (Object.keys(newErrors).length === 0) {
+      navigate("/Setnewpassword");
+    }
   };
-
   return (
     <div className='Ims-otpforget-container'>
       <div className='Ims-otpforget-innercontainer'>
@@ -112,8 +117,6 @@ export const OTPforgetpassword = () => {
             </div>
 
             <form onSubmit={handleSubmit}>
-
-              {/* OTP Inputs */}
               <div className="ims-otpforget-inputs">
                 {otp.map((digit, index) => (
                   <input
@@ -125,16 +128,31 @@ export const OTPforgetpassword = () => {
                     inputMode="numeric"
                     maxLength="1"
                     value={digit}
-                    onChange={(e) =>
-                      handleChange(e.target.value, index)
-                    }
-                    onKeyDown={(e) =>
-                      handleKeyDown(e, index)
-                    }
+                    onChange={(e) => handleChange(e.target.value, index)}
+                    onKeyDown={(e) => handleKeyDown(e, index)}
                     aria-label={`OTP digit ${index + 1}`}
+                    className={
+                      errors.otp
+                        ? "ims-otp-inputs ims-input-error"
+                        : "ims-otp-inputs"
+                    }
                   />
                 ))}
               </div>
+
+              {errors.otp && (
+                <div
+                  style={{
+                    color: "red",
+                    fontSize: "12px",
+                    marginTop: "5px",
+                    marginBottom: "20px",
+                  }}
+                >
+                  {errors.otp}
+                </div>
+              )}
+
 
               {/* Verify Button */}
               <button
@@ -148,7 +166,9 @@ export const OTPforgetpassword = () => {
               {/* Resend */}
               <div className="ims-otpforget-resend">
                 <span>Didn't receive the code?</span>
-                <button type="button">
+                <button 
+                type="button"
+                >
                   Resend
                 </button>
                 <span>(in 00:55)</span>

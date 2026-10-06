@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "../Components-Loginpage/Mainloginpage.css";
 import GraduateCap from "../assets/Mainlogin/Mainlogin logo.png";
 import LoginRisingMark from "../assets/Mainlogin/loginrisemark.png";
-import VectorStock from "../assets/Mainlogin/loginpagemainimage.png";
+import VectorStock from "../assets/Mainlogin/Loginmainimage.png";
 import BlueShield from "../assets/Mainlogin/Deansapproved.png";
 import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
 import MailIcon from "../assets/Mainlogin/MailIcon.png";
@@ -18,6 +18,7 @@ export const Mainloginpage = () => {
   const [formValues, setFormValues] = useState(initialValue);
   const [errors, setErrors] = useState({});
   const [passwordShow, setPasswordShow] = useState(true);
+  
 
   const navigate = useNavigate();
 
@@ -41,21 +42,30 @@ export const Mainloginpage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const passwordRegex =
+      /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+
     let newErrors = {};
 
     if (!formValues.email.trim()) {
       newErrors.email = "Email is required *";
+    } else if (
+      !/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/.test(formValues.email.trim())
+    ) {
+      newErrors.email = "Enter a valid email *";
     }
     if (!formValues.password.trim()) {
       newErrors.password = "Password is required *";
+    } else if (!passwordRegex.test(formValues.password.trim())) {
+      newErrors.password =
+        "Password contains at least 1 ( upper character, Lower character, Special character, Number )";
     }
     setErrors(newErrors);
 
-    // No errors move to next page
     if (Object.keys(newErrors).length === 0) {
-      alert("Login successful!");
       setFormValues(initialValue);
-      navigate("/");
+      console.log("handleSubmit ran", formValues);
+      alert ("Login successfull");
     }
   };
 
@@ -214,7 +224,7 @@ export const Mainloginpage = () => {
                   <label htmlFor="password" className="login-input-label">
                     Password
                   </label>
-                  <Link to="/forgot-password" className="forgot-password">
+                  <Link to="/Forgetpassword" className="forgot-password">
                     Forgot Password?
                   </Link>
                 </div>

@@ -169,7 +169,6 @@
   width: auto;
   height: 380px;
   padding-left: 110px;
-  mix-blend-mode: darken;
   margin: 50px 300px 20px 50px;
 }
 
@@ -208,7 +207,7 @@
 
 .login-bottomcontent {
   display: grid;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 .login-bottomcontent strong {
   font-family: "Open Sans", sans-serif;
@@ -368,7 +367,7 @@
   width: 600px;
   height: 55px;
   padding: 15px 16px 16px 48px;
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1.6px solid #132a5663;
   border-radius: 8px;
   box-sizing: border-box;
@@ -384,6 +383,8 @@
 
 .login-inputs:focus {
   border-color: #132a56;
+  background: none;
+  background-color: #FFFFFF;
 }
 
 .login-checkbox {
