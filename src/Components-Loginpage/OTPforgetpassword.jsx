@@ -9,7 +9,7 @@ import Endtoendforgetotp from "../assets/Mainlogin/Endtoendlock forgetotp.png";
 import Secureforgetotp from "../assets/Mainlogin/Secureforgetotp.png";
 
 export const OTPforgetpassword = () => {
-   const [otp, setOtp] = useState(["", "", "", "", "", ""]);
+  const [otp, setOtp] = useState(["", "", "", "", "", ""]);
   const [errors, setErrors] = useState({});
   const inputRefs = useRef([]);
   const navigate = useNavigate();
@@ -209,4 +209,4 @@ export const OTPforgetpassword = () => {
         </div>
     </div>
   )
-}
+};

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 
-.login-container {
+.Ims-login-container {
   width: auto;
   height: 100%;
   display: flex;
@@ -11,24 +11,24 @@
   background: linear-gradient(270deg, #ffffff 35%, #566b94 93%);
 }
 
-.login-inner-container {
+.Ims-login-inner-container {
   border: 1px solid none;
   display: flex;
   gap: 20px;
 }
 
-.login-left-content {
+.Ims-login-left-content {
   width: 810px;
   height: auto;
 }
 
-.login-mainhead {
+.Ims-login-mainhead {
   display: flex;
   align-items: center;
   gap: 14px;
 }
 
-.login-logo {
+.Ims-login-logo {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
@@ -39,20 +39,20 @@
   align-items: center;
 }
 
-.login-logo img {
+.Ims-login-logo img {
   width: 24px;
   height: 24px;
   object-fit: contain;
 }
 
-.login-mainheader {
+.Ims-login-mainheader {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2px;
 }
 
-.login-mainheader h3 {
+.Ims-login-mainheader h3 {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -62,7 +62,7 @@
   letter-spacing: -0.5px;
 }
 
-.login-mainheader p {
+.Ims-login-mainheader p {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -72,12 +72,12 @@
   letter-spacing: 0.3px;
 }
 
-.login-middlecontent {
+.Ims-login-middlecontent {
   display: grid;
   gap: 10px;
 }
 
-.login-maincontent h2 {
+.Ims-login-maincontent h2 {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -90,7 +90,7 @@
   margin: 0;
 }
 
-.login-maincontent p {
+.Ims-login-maincontent p {
   width: auto;
   height: 44px;
   color: #ffffff;
@@ -104,11 +104,11 @@
   margin-top: 12px;
 }
 
-.login-Statistics {
+.Ims-login-Statistics {
   display: flex;
   gap: 46px;
 }
-.login-Stat-card {
+.Ims-login-Stat-card {
   border: 1px solid #132a5633;
   width: 200px;
   height: 92px;
@@ -117,14 +117,14 @@
   background-color: #ffffffd9;
 }
 
-.login-statcard-content {
+.Ims-login-statcard-content {
   display: grid;
   padding-left: 55px;
   padding-top: 15px;
   gap: 5px;
 }
 
-.login-statcard-content strong {
+.Ims-login-statcard-content strong {
   color: #132a56;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -134,7 +134,7 @@
   vertical-align: middle;
 }
 
-.login-statcard-content span {
+.Ims-login-statcard-content span {
   color: #566b94;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -146,7 +146,7 @@
   text-transform: uppercase;
 }
 
-.login-statcard-content small {
+.Ims-login-statcard-content small {
   color: #109d58;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -158,11 +158,11 @@
   align-items: center;
 }
 
-.login-imagecontent {
+.Ims-login-imagecontent {
   display: grid;
   justify-content: center;
 }
-.login-bottom-card-container {
+.Ims-login-bottom-card-container {
   margin-left: 125px;
 }
 .login-vector-stock {
@@ -172,7 +172,7 @@
   margin: 50px 300px 20px 50px;
 }
 
-.login-bottomcard {
+.Ims-login-bottomcard {
   border: 1px solid #ffffffcc;
   width: 620px;
   height: 60px;
@@ -186,7 +186,7 @@
   align-items: center;
 }
 
-.login-bottomrightcard{
+.Ims-login-bottomrightcard{
   border: 1px solid #132A56;
   width: 38px;
   height: 38px;
@@ -197,7 +197,7 @@
   justify-content: center;
   align-items: center;
 }
-.login-white-shield {
+.Ims-login-white-shield {
   width: 24px;
   height: 24px;
   min-width: 24px;
@@ -205,11 +205,11 @@
   color:#FFFFFF;
 }
 
-.login-bottomcontent {
+.Ims-login-bottomcontent {
   display: grid;
   margin-top: 8px;
 }
-.login-bottomcontent strong {
+.Ims-login-bottomcontent strong {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-style: SemiBold;
@@ -220,7 +220,7 @@
   color: #132a56;
 }
 
-.login-bottomcontent p {
+.Ims-login-bottomcontent p {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-style: SemiBold;
@@ -231,7 +231,7 @@
   color: #132a56;
 }
 
-.login-bottomcontent p span {
+.Ims-login-bottomcontent p span {
   color: #566b94;
 }
 

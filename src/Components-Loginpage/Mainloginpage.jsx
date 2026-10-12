@@ -70,21 +70,21 @@ export const Mainloginpage = () => {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-inner-container">
-        <div className="login-left-content">
-          <header className="login-mainhead">
-            <div className="login-logo">
+    <div className="Ims-login-container">
+      <div className="Ims-login-inner-container">
+        <div className="Ims-login-left-content">
+          <header className="Ims-login-mainhead">
+            <div className="Ims-login-logo">
               <img src={GraduateCap} alt="Graduate-Cap" />
             </div>
-            <div className="login-mainheader">
+            <div className="Ims-login-mainheader">
               <h3>Internship Management System</h3>
               <p>Learn • Grow • Build Your Future</p>
             </div>
           </header>
 
-          <div className="login-middlecontent">
-            <div className="login-maincontent">
+          <div className="Ims-login-middlecontent">
+            <div className="Ims-login-maincontent">
               <h2>
                 Connecting academic talent with <br />
                 career-defining corporate internships
@@ -96,9 +96,9 @@ export const Mainloginpage = () => {
               </p>
             </div>
 
-            <div className="login-Statistics">
-              <div className="login-Stat-card">
-                <div className="login-statcard-content">
+            <div className="Ims-login-Statistics">
+              <div className="Ims-login-Stat-card">
+                <div className="Ims-login-statcard-content">
                   <strong>14,200+</strong>
                   <span>ACTIVE INTERNS</span>
                   <small>
@@ -115,8 +115,8 @@ export const Mainloginpage = () => {
                   </small>
                 </div>
               </div>
-              <div className="login-Stat-card">
-                <div className="login-statcard-content">
+              <div className="Ims-login-Stat-card">
+                <div className="Ims-login-statcard-content">
                   <strong>98.4%</strong>
                   <span>CREDIT VERIFIED</span>
                   <small style={{color:"#176789"}}>
@@ -134,8 +134,8 @@ export const Mainloginpage = () => {
                   </small>
                 </div>
               </div>
-              <div className="login-Stat-card">
-                <div className="login-statcard-content">
+              <div className="Ims-login-Stat-card">
+                <div className="Ims-login-statcard-content">
                   <strong>14,200+</strong>
                   <span>ACTIVE INTERNS</span>
                   <small>
@@ -155,22 +155,22 @@ export const Mainloginpage = () => {
             </div>
           </div>
 
-          <div className="login-imagecontent">
+          <div className="Ims-login-imagecontent">
             <img
               src={VectorStock}
               alt="vector-stock"
               className="login-vector-stock"
             />
-            <div className="login-bottom-card-container">
-              <div className="login-bottomcard">
-                <div className="login-bottomrightcard">
+            <div className="Ims-login-bottom-card-container">
+              <div className="Ims-login-bottomcard">
+                <div className="Ims-login-bottomrightcard">
                   <img
                     src={WhiteShield}
                     alt="white-shield"
-                    className="login-white-shield"
+                    className="Ims-login-white-shield"
                   />
                 </div>
-                <div className="login-bottomcontent">
+                <div className="Ims-login-bottomcontent">
                   <strong>
                     “Automated audit trails cut academic credit clearance time
                     from 14 days to under 48 hours.”

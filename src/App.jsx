@@ -6,7 +6,8 @@ import { Mainloginpage } from "./Components-Loginpage/Mainloginpage";
 import { OTPforgetpassword } from "./Components-Loginpage/OTPforgetpassword";
 import { Passwordresetsucess } from "./Components-Loginpage/Passwordresetsucess";
 import { Forgetpassword } from "./Components-Loginpage/Forgetpassword";
-import Setnewpassword from "./Components-Loginpage/Setnewpassword";
+import { Setnewpassword } from "./Components-Loginpage/Setnewpassword";
+import { MentorRegistrationpage } from "./Components-Registrationpage/MentorRegistrationpage";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
     path: "/setnewpassword",
     element: <Setnewpassword />,
   },
+  {
+    path:"/MentorRegistrationpage",
+    element: <MentorRegistrationpage/>,
+  }
 ]);
 
 function App() {

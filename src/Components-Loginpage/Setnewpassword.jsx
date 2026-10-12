@@ -11,7 +11,7 @@ import PasswordIcon from "../assets/Mainlogin/PasswordIcon.png";
 import SecureShield from "../assets/Mainlogin/Setnewpassword secureshield.png";
 import setnewpasswordrightarrow from "../assets/Mainlogin/right-arrow.png"
 
-export default function Setnewpassword() {
+export const Setnewpassword = () => {
 
  const initialValue = {
     newPassword: "",
