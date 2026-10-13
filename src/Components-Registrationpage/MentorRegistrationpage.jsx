@@ -7,7 +7,6 @@ import MentorRegistermainimage from "../assets/Mainlogin/Mentor register main im
 import MentorRegisterWhiteShield from "../assets/Mainlogin/Mentorregister insustryshield.png";
 import MentorRegisterconnections from "../assets/Mainlogin/Mentor Register Connections.png";
 import MentorRegisterstars from "../assets/Mainlogin/MentorRegister Stars.png";
-
 import EyeOpenIcon from "../assets/Mainlogin/eye-open.png";
 import EyeCloseIcon from "../assets/Mainlogin/eye-close.png";
 import MentorDownArrow from "../assets/Mainlogin/Mentor Down arrow.png";
@@ -137,21 +136,21 @@ export const MentorRegistrationpage = () => {
   };
 
   return (
-    <div className="ims-mentor-conatiner">
-      <div className="ims-mentor-inner-container">
-        <div className="ims-mentor-left-section">
-          <header className="Ims-MentorRegister-leftheader">
-            <div className="Ims-MentorRegister-logo-container">
+    <div className="ims-mentreg-conatiner">
+      <div className="ims-mentreg-innercontainer">
+        <div className="ims-mentreg-leftsection">
+          <header className="Ims-mentreg-leftheader">
+            <div className="Ims-mentreg-logocontainer">
               <img src={MentorRegistercap} alt="Graduate-Cap" />
             </div>
-            <div className="Ims-MentorRegister-main-header">
+            <div className="Ims-mentreg-mainheader">
               <h3>Internship Management System</h3>
               <p>Learn • Grow • Build Your Future</p>
             </div>
           </header>
 
-          <div className="Ims-MentorRegister-middle-content">
-            <div className="Ims-MentorRegister-main-content">
+          <div className="Ims-mentreg-middlecontent">
+            <div className="Ims-mentreg-maincontent">
               <h2>
                 Empower the next generation of <br />
                 talent.
@@ -165,24 +164,24 @@ export const MentorRegistrationpage = () => {
             </div>
           </div>
 
-          <div className="Ims-MentorRegister-image-content">
+          <div className="Ims-mentreg-imagecontent">
             <img
               src={MentorRegistermainimage}
               alt="MentorRegister mainimage"
-              className="Ims-MentorRegister-vector-stock"
+              className="Ims-mentreg-vectorstock"
             />
 
             {/* Bottom card one */}
-            <div className="Ims-MentorRegister-bottomcard-container">
-              <div className="Ims-MentorRegister-bottomcard">
-                <div className="Ims-MentorRegister-bottomrightcard">
+            <div className="Ims-mentreg-bottomcardcontainer">
+              <div className="Ims-mentreg-bottomcard">
+                <div className="Ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterWhiteShield}
                     alt="Mentor-white-shield"
-                    className="Ims-MentorRegister-whiteshield"
+                    className="Ims-mentreg-whiteshield"
                   />
                 </div>
-                <div className="Ims-MentorRegister-bottomcontent">
+                <div className="Ims-mentreg-bottomcontent">
                   <strong>Industry Impact</strong>
                   <p>
                     Bridge the gap between academic learning and real-world
@@ -193,9 +192,9 @@ export const MentorRegistrationpage = () => {
             </div>
 
             {/* Bottom card two */}
-            <div className="Ims-MentorRegister-bottomcardtwo-container">
-              <div className="Ims-MentorRegister-bottomcard">
-                <div className="Ims-MentorRegister-bottomrightcard">
+            <div className="Ims-mentreg-bottomcardtwo-container">
+              <div className="Ims-mentreg-bottomcard">
+                <div className="Ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterconnections}
                     alt="Mentor-connections"
@@ -206,7 +205,7 @@ export const MentorRegistrationpage = () => {
                     }}
                   />
                 </div>
-                <div className="Ims-MentorRegister-bottomcontent">
+                <div className="Ims-mentreg-bottomcontent">
                   <strong>Meaningful Connections</strong>
                   <p>
                     Build lasting professional relationships with ambitious
@@ -217,9 +216,9 @@ export const MentorRegistrationpage = () => {
             </div>
 
             {/* Bottom card three */}
-            <div className="Ims-MentorRegister-bottomcardthree-container">
-              <div className="Ims-MentorRegister-bottomcard">
-                <div className="Ims-MentorRegister-bottomrightcard">
+            <div className="Ims-mentreg-bottomcardthree-container">
+              <div className="Ims-mentreg-bottomcard">
+                <div className="Ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterstars}
                     alt="Mentor-Stars-image"
@@ -230,7 +229,7 @@ export const MentorRegistrationpage = () => {
                     }}
                   />
                 </div>
-                <div className="Ims-MentorRegister-bottomcontent">
+                <div className="Ims-mentreg-bottomcontent">
                   <strong>Personal Growth</strong>
                   <p>
                     Enhance your leadership and communication skills through
@@ -241,7 +240,7 @@ export const MentorRegistrationpage = () => {
             </div>
           </div>
         </div>
-
+            {/* Right content */}
         <div className="ims-mentor-right-section">
           <div className="ims-mentor-header-conatiner">
             <header className="ims-mentor-header">
@@ -577,7 +576,7 @@ export const MentorRegistrationpage = () => {
           <div className="ims-mentor-signin-container">
             <p className="ims-mentor-signin-text">
               Already have an account?{" "}
-              <Link to="/login" className="ims-mentor-signin-link">
+              <Link to="/" className="ims-mentor-signin-link">
                 {" "}
                 Sign in
               </Link>

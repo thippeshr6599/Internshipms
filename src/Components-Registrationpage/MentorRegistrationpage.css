@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-.ims-mentor-conatiner {
+.ims-mentreg-conatiner {
   width: 100%;
   min-height: 100vh;
   padding: 40px 55px;
   background: linear-gradient(270deg, #ffffff 35%, #566b93 93%);
 }
 
-.ims-mentor-inner-container {
+.ims-mentreg-innercontainer {
   width: 100%;
   max-width: 1600px;
   min-height: calc(100vh - 80px);
@@ -19,19 +19,20 @@
   align-items: start;
 }
 
-.ims-mentor-left-section {
+.ims-mentreg-leftsection {
   width: 100%;
   min-width: 0;
   color: #ffffff;
 }
 
-.Ims-MentorRegister-leftheader {
+.Ims-mentreg-leftheader {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 15px;
+  margin-top: 10px;
 }
 
-.Ims-MentorRegister-logo-container {
+.Ims-mentreg-logocontainer {
   width: 44px;
   height: 44px;
   min-width: 44px;
@@ -42,19 +43,19 @@
   align-items: center;
 }
 
-.Ims-MentorRegister-logo-container img {
+.Ims-mentreg-logocontainer img {
   width: 24px;
   height: 24px;
   object-fit: contain;
 }
 
-.Ims-MentorRegister-main-header {
+.Ims-mentreg-mainheader {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.Ims-MentorRegister-main-header h3 {
+.Ims-mentreg-mainheader h3 {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -64,7 +65,7 @@
   letter-spacing: -0.2px;
 }
 
-.Ims-MentorRegister-main-header p {
+.Ims-mentreg-mainheader p {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -74,12 +75,12 @@
   letter-spacing: 0.3px;
 }
 
-.Ims-MentorRegister-middle-content {
+.Ims-mentreg-middlecontent {
   display: block;
-  margin-top: 42px;
+  margin-top: 20px;
 }
 
-.Ims-MentorRegister-main-content h2 {
+.Ims-mentreg-maincontent h2 {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -89,7 +90,7 @@
   letter-spacing: -0.8px;
 }
 
-.Ims-MentorRegister-main-content p {
+.Ims-mentreg-maincontent p {
   margin: 14px 0 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -98,7 +99,7 @@
   line-height: 24px;
 }
 
-.Ims-MentorRegister-image-content {
+.Ims-mentreg-imagecontent {
   width: 100%;
   max-width: 650px;
   margin: 25px auto 0;
@@ -107,26 +108,26 @@
   align-items: center;
 }
 
-.Ims-MentorRegister-vector-stock {
+.Ims-mentreg-vectorstock {
   display: block;
   width: 100%;
   max-width: 500px;
-  height: 280px;
+  height: 350px;
   object-fit: contain;
   object-position: center;
   padding: 0;
   margin: 0 0 20px;
 }
 
-.Ims-MentorRegister-bottomcard-container,
-.Ims-MentorRegister-bottomcardtwo-container,
-.Ims-MentorRegister-bottomcardthree-container {
+.Ims-mentreg-bottomcardcontainer,
+.Ims-mentreg-bottomcardtwo-container,
+.Ims-mentreg-bottomcardthree-container {
   width: 100%;
   max-width: 550px;
   margin: 0 0 14px;
 }
 
-.Ims-MentorRegister-bottomcard {
+.Ims-mentreg-bottomcard {
   width: 100%;
   min-height: 66px;
   padding: 10px 16px;
@@ -140,7 +141,7 @@
   backdrop-filter: blur(12px);
 }
 
-.Ims-MentorRegister-bottomrightcard {
+.Ims-mentreg-bottomrightcard {
   width: 38px;
   height: 38px;
   min-width: 38px;
@@ -153,26 +154,26 @@
   justify-content: center;
 }
 
-.Ims-MentorRegister-whiteshield {
+.Ims-mentreg-whiteshield {
   width: 12px;
   height: 15px;
   object-fit: contain;
 }
 
-.Ims-MentorRegister-bottomrightcard img {
+.Ims-mentreg-bottomrightcard img {
   max-width: 18px;
   max-height: 18px;
   object-fit: contain;
 }
 
-.Ims-MentorRegister-bottomcontent {
+.Ims-mentreg-bottomcontent {
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
-.Ims-MentorRegister-bottomcontent strong {
+.Ims-mentreg-bottomcontent strong {
   margin: 0;
   color: #132a56;
   font-family: "Open Sans", sans-serif;
@@ -182,7 +183,7 @@
   letter-spacing: 0.3px;
 }
 
-.Ims-MentorRegister-bottomcontent p {
+.Ims-mentreg-bottomcontent p {
   margin: 0;
   color: #111112;
   font-family: "Open Sans", sans-serif;
@@ -377,42 +378,73 @@
 }
 
 .ims-mentor-phoneNumber-conatiner {
-  width: 100%;
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
-.mentor-input-conatiner .ims-mentor-phoneNumber-conatiner select,
 .ims-mentor-phoneNumber-conatiner select {
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
   flex: 0 0 76px;
   width: 76px;
+  min-width: 76px;
   height: 46px;
-  padding: 0 8px;
+
+  padding: 0 10px;
+
   border: 1px solid #132a5680;
   border-radius: 8px;
   background-color: #ffffff;
+
   color: #333334;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
+  font-weight: 400;
+
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
 }
 
 .ims-mentor-phoneNumber-conatiner input {
-  flex: 1;
+  flex: 1 1 0;
   width: 0;
   min-width: 0;
   height: 46px;
+
   padding: 0 12px;
+
   border: 1px solid #132a5680;
   border-radius: 8px;
   background-color: #ffffff;
+
+  color: #333334;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+
+  box-sizing: border-box;
   outline: none;
 }
 
 .ims-mentor-phoneNumber-conatiner input::placeholder {
   color: #777587;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.ims-mentor-phoneNumber-conatiner select:focus,
+.ims-mentor-phoneNumber-conatiner input:focus {
+  border-color: #176789;
+  box-shadow: 0 0 0 2px #17678918;
 }
 
 .mentor-input-conatiner > p {
@@ -705,3 +737,493 @@
   line-height: 15px;
   overflow-wrap: anywhere;
 }
+
+  /* 1920 × 1080 DESKTOP SCREEN */
+@media screen and (min-width: 1600px) and (min-height: 900px) {
+  .ims-mentreg-conatiner {
+    min-height: 100vh;
+    padding: 30px 5%;
+    box-sizing: border-box;
+  }
+
+  .ims-mentreg-innercontainer {
+    max-width: 1700px;
+    min-height: calc(100vh - 60px);
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    column-gap: 45px;
+    align-items: start;
+  }
+
+  .ims-mentreg-leftsection {
+    width: 100%;
+  }
+
+  .ims-mentreg-middlecontent {
+    margin-top: 30px;
+  }
+
+  .Ims-mentreg-maincontent h2 {
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .Ims-mentreg-maincontent p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .Ims-mentreg-imagecontent {
+    max-width: 680px;
+    margin-top: 20px;
+  }
+
+  .Ims-mentreg-vectorstock {
+    max-width: 540px;
+    height: 370px;
+    margin-bottom: 15px;
+  }
+
+  .ims-mentor-right-section {
+    width: 100%;
+    max-width: 740px;
+  }
+
+  .ims-mentor-header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .ims-mentor-header p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .ims-mentor-reg-form {
+    gap: 14px;
+  }
+
+  .mentor-input-conatiner label,
+  .mentor-role-selector label {
+    font-size: 13px;
+  }
+
+  .mentor-input-conatiner input,
+  .ims-mentor-phoneNumber-conatiner input,
+  .ims-mentor-phoneNumber-conatiner select,
+  .ims-mentor-Experience select,
+  .Ims-role-select-wrapper select {
+    height: 42px;
+    font-size: 13px;
+  }
+
+  .mentor-input-conatiner textarea {
+    height: 85px;
+    font-size: 13px;
+  }
+
+  .ims-mentor-submit-btn {
+    height: 44px;
+    font-size: 14px;
+  }
+}
+
+
+ /* LAPTOP: 1366 × 768 AND SIMILAR */
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
+  .ims-mentreg-conatiner {
+    min-height: 100vh;
+    padding: 14px 3%;
+    box-sizing: border-box;
+  }
+
+  .ims-mentreg-innercontainer {
+    min-height: calc(100vh - 28px);
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    column-gap: 24px;
+    align-items: start;
+  }
+
+  .ims-mentreg-leftsection {
+    width: 100%;
+  }
+
+  .Ims-mentreg-logocontainer {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+
+  .Ims-mentreg-mainheader h3 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .Ims-mentreg-mainheader p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .ims-mentreg-middlecontent {
+    margin-top: 22px;
+  }
+
+  .Ims-mentreg-maincontent h2 {
+    font-size: 29px;
+    line-height: 1.22;
+  }
+
+  .Ims-mentreg-maincontent p {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .Ims-mentreg-imagecontent {
+    margin-top: 12px;
+    max-width: 100%;
+  }
+
+  .Ims-mentreg-vectorstock {
+    height: 300px;
+    max-width: 420px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+
+  .Ims-mentreg-bottomcard {
+    min-height: 54px;
+    padding: 8px 11px;
+    gap: 10px;
+    border-radius: 10px;
+  }
+
+  .Ims-mentreg-bottomrightcard {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+  }
+
+  .Ims-mentreg-bottomcontent strong {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .Ims-mentreg-bottomcontent p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .ims-mentreg-bottomcardcontainer,
+  .Ims-mentreg-bottomcardtwo-container,
+  .Ims-mentreg-bottomcardthree-container {
+    margin-bottom: 9px;
+  }
+
+  /* RIGHT FORM SECTION */
+  .ims-mentor-right-section {
+    width: 100%;
+    max-width: 680px;
+    min-width: 0;
+  }
+
+  .ims-mentor-header-conatiner {
+    gap: 12px;
+  }
+
+  .ims-mentor-header h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .ims-mentor-header p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .mentor-role-selector {
+    gap: 5px;
+  }
+
+  .mentor-role-selector label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .Ims-role-select-wrapper select {
+    width: 100%;
+    height: 39px;
+    font-size: 12px;
+  }
+
+  .ims-mentor-reg-form {
+    margin-top: 10px;
+    gap: 11px;
+  }
+
+  .ims-mentor-form-row-container {
+    column-gap: 14px;
+    row-gap: 10px;
+  }
+
+  .mentor-input-conatiner {
+    gap: 5px;
+    min-width: 0;
+  }
+
+  .mentor-input-conatiner label {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .mentor-input-conatiner input,
+  .ims-mentor-phoneNumber-conatiner input,
+  .ims-mentor-phoneNumber-conatiner select {
+    height: 38px;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+
+  .mentor-input-conatiner input::placeholder,
+  .ims-mentor-phoneNumber-conatiner input::placeholder {
+    font-size: 11px;
+  }
+
+  .ims-mentor-phoneNumber-conatiner {
+    gap: 5px;
+    min-width: 0;
+  }
+
+  .ims-mentor-phoneNumber-conatiner select {
+    flex-basis: 48px;
+    width: 48px;
+    min-width: 48px;
+    padding: 0 4px;
+  }
+
+  .ims-mentor-Experience select {
+    width: 100%;
+    height: 38px;
+    font-size: 11px;
+  }
+
+  .mentor-input-conatiner textarea {
+    width: 100%;
+    height: 78px;
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 17px;
+    resize: none;
+    box-sizing: border-box;
+  }
+
+  .mentor-input-conatiner textarea::placeholder {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .ims-mentor-bio-counter {
+    font-size: 11px;
+  }
+
+  .ims-mentor-input-inner-container,
+  .ims-mentor-input-inner-container input {
+    height: 38px;
+  }
+
+  .ims-mentor-input-inner-container input {
+    padding-right: 36px;
+    font-size: 12px;
+  }
+
+  .ims-mentor-password-eye-open,
+  .ims-mentor-password-eye-close {
+    right: 10px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .ims-mentor-checkbox-label {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .ims-mentor-checkbox {
+    width: 15px;
+    height: 15px;
+    flex-basis: 15px;
+  }
+
+  .ims-mentor-submit-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .ims-mentor-divider-container {
+    margin-top: 8px;
+  }
+
+  .ims-mentor-signin-container {
+    margin-top: 5px;
+    padding-bottom: 0;
+  }
+
+  .ims-mentor-signin-text,
+  .ims-mentor-signin-link {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+  /* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .ims-mentreg-conatiner {
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .ims-mentreg-innercontainer {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    column-gap: 20px;
+  }
+
+  .Ims-mentreg-maincontent h2 {
+    font-size: 26px;
+  }
+
+  .Ims-mentreg-maincontent p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .Ims-mentreg-vectorstock {
+    height: 210px;
+    max-width: 100%;
+  }
+
+  .Ims-mentreg-bottomcard {
+    padding: 8px;
+  }
+
+  .Ims-mentreg-bottomcontent strong {
+    font-size: 11px;
+  }
+
+  .Ims-mentreg-bottomcontent p {
+    font-size: 9px;
+    line-height: 13px;
+  }
+
+  .ims-mentor-right-section {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .ims-mentor-form-row-container {
+    column-gap: 10px;
+  }
+
+  .mentor-input-conatiner input,
+  .ims-mentor-phoneNumber-conatiner input,
+  .ims-mentor-Experience select {
+    height: 38px;
+  }
+}
+ 
+ /* Mobile */
+@media screen and (max-width: 767px) {
+  .ims-mentreg-conatiner {
+    padding: 20px 16px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .ims-mentreg-innercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    min-height: auto;
+  }
+
+  .ims-mentreg-leftsection {
+    width: 100%;
+  }
+
+  .Ims-mentreg-mainheader h3 {
+    font-size: 16px;
+  }
+
+  .ims-mentreg-middlecontent {
+    margin-top: 22px;
+  }
+
+  .Ims-mentreg-maincontent h2 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .Ims-mentreg-maincontent p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .Ims-mentreg-imagecontent {
+    margin-top: 15px;
+  }
+
+  .Ims-mentreg-vectorstock {
+    height: 220px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .Ims-mentreg-bottomcard {
+    min-height: 55px;
+  }
+
+  .ims-mentor-right-section {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .ims-mentor-header h1 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .ims-mentor-header p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .ims-mentor-form-row-container {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 14px;
+  }
+
+  .ims-mentor-reg-form {
+    gap: 14px;
+  }
+
+  .mentor-input-conatiner input,
+  .ims-mentor-phoneNumber-conatiner input,
+  .ims-mentor-phoneNumber-conatiner select,
+  .ims-mentor-Experience select,
+  .Ims-role-select-wrapper select {
+    height: 44px;
+  }
+
+  .mentor-input-conatiner textarea {
+    height: 100px;
+  }
+
+  .ims-mentor-submit-btn {
+    height: 46px;
+  }
+}
+
+

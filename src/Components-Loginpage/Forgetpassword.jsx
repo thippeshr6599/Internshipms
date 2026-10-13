@@ -210,7 +210,7 @@ export const Forgetpassword = () => {
 
       <div className="ims-Forgetpassword-back-to-login-wrapper">
         <Link
-          to="/login"
+          to="/"
           className="ims-Forgetpassword-back-to-login"
         >
           <img
