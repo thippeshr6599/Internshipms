@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../Components-Loginpage/Passwordresetsucess.css";
-import Forgetpasswordcap from "../assets/Mainlogin/Mainlogin logo.png";
-import Forgetpasswordmainimage from "../assets/Mainlogin/Passwordsucess mainimage.png";
-import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
-import ResetsuccessRightmark from "../assets/Mainlogin/Passwordresetsuccess rightmark.png";
-import Resetsuccesssecuritylock from "../assets/Mainlogin/Resetsucess securitylock.png";
+import logograduatecap from "../assets/login/logo-cap.png";
+import Passwordsucessmainimage from "../assets/login/Passwordsucess-mainimage.png";
+import WhiteShield from "../assets/login/login-Shieldcheckmark.png";
+import ResetsuccessRightmark from "../assets/login/Passwordreset-successicon.png";
+import Resetsuccesssecuritylock from "../assets/login/Resetsucess-securitylock.png";
 
 export const Passwordresetsucess = () => {
    const navigate = useNavigate();
@@ -15,7 +15,7 @@ export const Passwordresetsucess = () => {
         <div className='Ims-Resetsucess-leftcontent'>
              <header className="Ims-Resetsucess-leftheader">
                 <div className="Ims-Resetsucess-logo-container">
-                  <img src={Forgetpasswordcap} alt="Graduate-Cap" />
+                  <img src={logograduatecap} alt="Graduate-Cap" />
                 </div>
                 <div className="Ims-Resetsucess-main-header">
                   <h3>Internship Management System</h3>
@@ -38,8 +38,8 @@ export const Passwordresetsucess = () => {
     
               <div className="Ims-Resetsucess-image-content">
                 <img
-                  src={Forgetpasswordmainimage}
-                  alt="Forgetpasswordmainimage"
+                  src={Passwordsucessmainimage}
+                  alt="passwordsucess mainimage"
                   className="Ims-Resetsucess-vector-stock"
                 />
                   <div className="Ims-Resetsucess-bottomcard-container">

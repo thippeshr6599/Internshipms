@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "../Components-Loginpage/OTPforgetpassword.css";
-import GraduateCap from "../assets/Mainlogin/Mainlogin logo.png";
-import Otpforgetmainimage from "../assets/Mainlogin/OTPforgetpasswordmainimage.png";
-import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
-import Rightarrowotpforget from "../assets/Mainlogin/Right arrow imsforgetotp.png";
-import Endtoendforgetotp from "../assets/Mainlogin/Endtoendlock forgetotp.png";
-import Secureforgetotp from "../assets/Mainlogin/Secureforgetotp.png";
+import GraduateCap from "../assets/login/logo-cap.png";
+import Otpforgetmainimage from "../assets/login/OTPforgetpassword-mainimage.png";
+import WhiteShield from "../assets/login/login-Shieldcheckmark.png";
+import Verifycontinue from "../assets/login/verify&continue.png";
+import Endtoendforgetotp from "../assets/login/Endtoendlock forgetotp.png";
+import Secureforgetotp from "../assets/login/Secure-forgetotp.png";
 
 export const OTPforgetpassword = () => {
   const [otp, setOtp] = useState(["", "", "", "", "", ""]);
@@ -160,7 +160,7 @@ export const OTPforgetpassword = () => {
                 className="ims-otpforget-verifybtn"
               >
                 Verify and Continue
-                <img src={Rightarrowotpforget} alt="arrow mark" style={{width:"12px",height:"12px"}}/>
+                <img src={Verifycontinue} alt="verify and continue" style={{width:"12px",height:"12px"}}/>
               </button>
 
               {/* Resend */}

@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../Components-Loginpage/Mainloginpage.css";
-import GraduateCap from "../assets/Mainlogin/Mainlogin logo.png";
-import LoginRisingMark from "../assets/Mainlogin/loginrisemark.png";
-import VectorStock from "../assets/Mainlogin/Loginmainimage.png";
-import BlueShield from "../assets/Mainlogin/Deansapproved.png";
-import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
-import MailIcon from "../assets/Mainlogin/MailIcon.png";
-import PasswordIcon from "../assets/Mainlogin/PasswordIcon.png";
-import RightArrow from "../assets/Mainlogin/right-arrow.png";
-import GoogleIcon from "../assets/Mainlogin/google-icon.png";
-import EyeOpen from "../assets/Mainlogin/eye-open.png";
-import EyeClose from "../assets/Mainlogin/eye-close.png";
+import GraduateCap from "../assets/login/logo-cap.png";
+import LoginRisingMark from "../assets/login/loginrisemark.png";
+import Loginmainimage from "../assets/login/Loginmainimage.png";
+import Deansapproved from "../assets/login/Deansapproved.png";
+import WhiteShield from "../assets/login/login-Shieldcheckmark.png";
+import MailIcon from "../assets/login/MailIcon.png";
+import PasswordIcon from "../assets/login/Password-Icon.png";
+import Signin from "../assets/login/sign-in.png";
+import GoogleIcon from "../assets/login/google-icon.png";
+import EyeOpen from "../assets/login/eye-open.png";
+import EyeClose from "../assets/login/eye-close.png";
 
 export const Mainloginpage = () => {
   const initialValue = { email: "", password: "" };
@@ -122,8 +122,8 @@ export const Mainloginpage = () => {
                   <small style={{color:"#176789"}}>
                     {" "}
                     <img
-                      src={BlueShield}
-                      alt="Blue-Shield"
+                      src={Deansapproved}
+                      alt="Deans approved-Shield"
                       style={{
                         width: "14px",
                         height: "14px",
@@ -157,8 +157,8 @@ export const Mainloginpage = () => {
 
           <div className="Ims-login-imagecontent">
             <img
-              src={VectorStock}
-              alt="vector-stock"
+              src={Loginmainimage}
+              alt="main-image"
               className="login-vector-stock"
             />
             <div className="Ims-login-bottom-card-container">
@@ -272,7 +272,7 @@ export const Mainloginpage = () => {
 
               <button type="submit" className="signin-button-for-login">
                 <span>Sign In</span>
-                <img src={RightArrow} alt="Arrow" className="right-arrow" />
+                <img src={Signin} alt="Sign in" className="right-arrow" />
               </button>
             </div>
 

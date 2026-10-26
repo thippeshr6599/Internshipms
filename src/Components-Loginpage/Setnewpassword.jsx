@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../Components-Loginpage/Setnewpassword.css";
-import Forgetpasswordcap from "../assets/Mainlogin/Mainlogin logo.png";
-import Forgetpasswordmainimage from "../assets/Mainlogin/Setnewpassword mainimage.png";
-import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
-import ResetIcon from "../assets/Mainlogin/Passwordreseticon.png";
-import Check from "../assets/Mainlogin/uncheck.png";
-import UnCheck from "../assets/Mainlogin/check.png";
-import PasswordIcon from "../assets/Mainlogin/PasswordIcon.png";
-import SecureShield from "../assets/Mainlogin/Setnewpassword secureshield.png";
-import setnewpasswordrightarrow from "../assets/Mainlogin/right-arrow.png"
+import logograduatecap from "../assets/login/logo-cap.png";
+import Setnewpasswordmainimage from "../assets/login/Setnewpassword-mainimage.png";
+import WhiteShield from "../assets/login/login-Shieldcheckmark.png";
+import ResetIcon from "../assets/login/Password-reseticon.png";
+import PasswordCheck from "../assets/login/password-uncheck.png";
+import PasswordUnCheck from "../assets/login/password-check.png";
+import PasswordIcon from "../assets/login/Password-Icon.png";
+import SecureShield from "../assets/login/Setnewpassword-secureshield.png";
+import Updatepassword from "../assets/login/updatepassword.png"
 
 export const Setnewpassword = () => {
 
@@ -74,7 +74,7 @@ export const Setnewpassword = () => {
         <div className='Ims-setnewpassword-leftcontent'>
            <header className="Ims-Forgetpassword-leftheader">
               <div className="Ims-Forgetpassword-logo-container">
-                <img src={Forgetpasswordcap} alt="Graduate-Cap" />
+                <img src={logograduatecap} alt="Graduate-Cap" />
               </div>
               <div className="Ims-Forgetpassword-main-header">
                 <h3>Internship Management System</h3>
@@ -96,8 +96,8 @@ export const Setnewpassword = () => {
   
             <div className="Ims-Forgetpassword-image-content">
               <img
-                src={Forgetpasswordmainimage}
-                alt="Forgetpasswordmainimage"
+                src={Setnewpasswordmainimage}
+                alt="Setnewpassword mainimage"
                 className="Ims-Forgetpassword-vector-stock"
               />
                 <div className="Ims-Forgetpassword-bottomcard-container">
@@ -228,8 +228,8 @@ export const Setnewpassword = () => {
           <img
             src={
               isPasswordLengthValid
-                ? Check
-                : UnCheck
+                ? PasswordCheck
+                : PasswordUnCheck
             }
             alt="Checker"
             className="ims-setnewpassword-checker-icon"
@@ -242,8 +242,8 @@ export const Setnewpassword = () => {
           <img
             src={
               isPasswordMatchValid
-                ? Check
-                : UnCheck
+                ? PasswordCheck
+                : PasswordUnCheck
             }
             alt="Checker"
             className="ims-setnewpassword-checker-icon"
@@ -261,7 +261,7 @@ export const Setnewpassword = () => {
       >
         Update Password
         <span className="ims-setnewpassword-arrow">
-          <img src={setnewpasswordrightarrow} alt="Right arrow" />
+          <img src={Updatepassword} alt="update password" />
         </span>
       </button>
 

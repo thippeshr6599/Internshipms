@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../Components-Loginpage/Forgetpassword.css";
-import Forgetpasswordcap from "../assets/Mainlogin/Mainlogin logo.png";
-import Forgetpasswordmainimage from "../assets/Mainlogin/Forgetpasswordmainimage.png";
-import WhiteShield from "../assets/Mainlogin/login - Shield with checkmark.png";
-import ForgetpasswordResetIcon from "../assets/Mainlogin/Passwordreseticon.png";
-import ForgetpasswordMailicon from "../assets/Mainlogin/Forgetpaswword Emailicon.png";
-import ForgetpasswordMobileIcon from "../assets/Mainlogin/Forgetpassword Mobileicon.png";
-import ForgetpasswordRightArrow from "../assets/Mainlogin/right-arrow.png";
-import ForgetpasswordLeftArrow from "../assets/Mainlogin/Backtologin icon.png";
+import logocap from "../assets/login/logo-cap.png";
+import Forgetpasswordmainimage from "../assets/login/Forgetpassword-mainimage.png";
+import WhiteShield from "../assets/login/login-Shieldcheckmark.png";
+import ForgetpasswordResetIcon from "../assets/login/Password-reseticon.png";
+import ForgetpasswordMailicon from "../assets/login/Forgetpassword-Emailicon.png";
+import ForgetpasswordMobileIcon from "../assets/login/Forgetpassword-Mobileicon.png";
+import Sendverificationcode from "../assets/login/verify&continue.png";
+import Backtologin from "../assets/login/Backtologin-icon.png";
 
 export const Forgetpassword = () => {
 
@@ -31,7 +31,7 @@ export const Forgetpassword = () => {
         <div className='Ims-Forgetpassword-leftcontent'>
            <header className="Ims-Forgetpassword-leftheader">
             <div className="Ims-Forgetpassword-logo-container">
-              <img src={Forgetpasswordcap} alt="Graduate-Cap" />
+              <img src={logocap} alt="Graduate-Cap" />
             </div>
             <div className="Ims-Forgetpassword-main-header">
               <h3>Internship Management System</h3>
@@ -202,7 +202,7 @@ export const Forgetpassword = () => {
         <span>Send Verification Code</span>
 
         <img
-          src={ForgetpasswordRightArrow}
+          src={Sendverificationcode}
           alt="right arrow"
           className="ims-Forgetpassword-right-arrow"
         />
@@ -214,7 +214,7 @@ export const Forgetpassword = () => {
           className="ims-Forgetpassword-back-to-login"
         >
           <img
-            src={ForgetpasswordLeftArrow}
+            src={Backtologin}
             alt="left arrow"
             className="ims-Forgetpassword-left-arrow-icon"
           />

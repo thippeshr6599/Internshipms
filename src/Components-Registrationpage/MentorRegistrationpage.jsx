@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import "../Components-Registrationpage/MentorRegistrationpage.css";
-import MentorRegistercap from "../assets/Mainlogin/Mainlogin logo.png";
-import MentorRegistermainimage from "../assets/Mainlogin/Mentor register main image.png";
-import MentorRegisterWhiteShield from "../assets/Mainlogin/Mentorregister insustryshield.png";
-import MentorRegisterconnections from "../assets/Mainlogin/Mentor Register Connections.png";
-import MentorRegisterstars from "../assets/Mainlogin/MentorRegister Stars.png";
-import EyeOpenIcon from "../assets/Mainlogin/eye-open.png";
-import EyeCloseIcon from "../assets/Mainlogin/eye-close.png";
-import MentorDownArrow from "../assets/Mainlogin/Mentor Down arrow.png";
-import MentorDownArrow2 from "../assets/Mainlogin/Mentor Dwon arrow2.png";
+import MentorRegistercap from "../assets/registration/logo-cap.png";
+import MentorRegistermainimage from "../assets/registration/Mentorregister-mainimage.png";
+import MentorRegisterWhiteShield from "../assets/registration/Mentorregister-industryshield.png";
+import MentorRegisterconnections from "../assets/registration/MentorRegister-Connections.png";
+import MentorRegisterstars from "../assets/registration/MentorRegister-Stars.png";
+import EyeOpenIcon from "../assets/registration/eye-open.png";
+import EyeCloseIcon from "../assets/registration/eye-close.png";
+import Roleselector from "../assets/registration/role-selector.png";
+import Feildofstudyselector from "../assets/registration/fieldofstudy-selector.png";
 
 export const MentorRegistrationpage = () => {
   const initialValues = {
@@ -261,7 +261,7 @@ export const MentorRegistrationpage = () => {
                 <option value="admin">Admin</option>
               </select>
                 <img
-                 src={MentorDownArrow}
+                 src={Roleselector}
                  alt="Mentor Down Arrow"
                  className="ims-role-dropdown-arrow"
                  />
@@ -418,7 +418,7 @@ export const MentorRegistrationpage = () => {
                   </select>
 
                   <img
-                    src={MentorDownArrow2}
+                    src={Feildofstudyselector}
                     alt="mentor down arrow2"
                     className="ims-role-dropdown-arrow2"
                   />
