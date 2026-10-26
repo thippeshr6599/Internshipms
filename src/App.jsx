@@ -7,7 +7,7 @@ import { OTPforgetpassword } from "./Components-Loginpage/OTPforgetpassword";
 import { Passwordresetsucess } from "./Components-Loginpage/Passwordresetsucess";
 import { Forgetpassword } from "./Components-Loginpage/Forgetpassword";
 import { Setnewpassword } from "./Components-Loginpage/Setnewpassword";
-import { MentorRegistrationpage } from "./Components-Registrationpage/MentorRegistrationpage";
+import { MentorRegistrationpage } from "./Components-Registration/MentorRegistrationpage";
 
 const router = createBrowserRouter([
   {

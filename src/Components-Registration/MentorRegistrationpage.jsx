@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import "../Components-Registrationpage/MentorRegistrationpage.css";
-import MentorRegistercap from "../assets/registration/logo-cap.png";
-import MentorRegistermainimage from "../assets/registration/Mentorregister-mainimage.png";
-import MentorRegisterWhiteShield from "../assets/registration/Mentorregister-industryshield.png";
-import MentorRegisterconnections from "../assets/registration/MentorRegister-Connections.png";
-import MentorRegisterstars from "../assets/registration/MentorRegister-Stars.png";
+import "../Components-Registration/MentorRegistrationpage.css";
+import Mentorlogocap from "../assets/registration/logo-cap.png";
+import MentorRegistermainimage from "../assets/registration/mentor-register-illustration-image.png";
+import MentorRegisterWhiteShield from "../assets/registration/mentor-register-shield.png";
+import MentorRegisterconnections from "../assets/registration/mentor-register-connections.png";
+import MentorRegisterstars from "../assets/registration/mentor-rgister-stars.png";
 import EyeOpenIcon from "../assets/registration/eye-open.png";
 import EyeCloseIcon from "../assets/registration/eye-close.png";
-import Roleselector from "../assets/registration/role-selector.png";
-import Feildofstudyselector from "../assets/registration/fieldofstudy-selector.png";
+import Roleselector from "../assets/registration/roleselector-drop-down.png";
+import Feildofstudyselector from "../assets/registration/gray-drop-down.png";
 
 export const MentorRegistrationpage = () => {
   const initialValues = {
@@ -141,7 +141,7 @@ export const MentorRegistrationpage = () => {
         <div className="ims-mentreg-leftsection">
           <header className="ims-mentreg-leftheader">
             <div className="ims-mentreg-logocontainer">
-              <img src={MentorRegistercap} alt="Graduate-Cap" />
+              <img src={Mentorlogocap} alt="Graduate-Cap" />
             </div>
             <div className="ims-mentreg-mainheader">
               <h3>Internship Management System</h3>
