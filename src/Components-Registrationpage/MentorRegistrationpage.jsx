@@ -139,18 +139,18 @@ export const MentorRegistrationpage = () => {
     <div className="ims-mentreg-conatiner">
       <div className="ims-mentreg-innercontainer">
         <div className="ims-mentreg-leftsection">
-          <header className="Ims-mentreg-leftheader">
-            <div className="Ims-mentreg-logocontainer">
+          <header className="ims-mentreg-leftheader">
+            <div className="ims-mentreg-logocontainer">
               <img src={MentorRegistercap} alt="Graduate-Cap" />
             </div>
-            <div className="Ims-mentreg-mainheader">
+            <div className="ims-mentreg-mainheader">
               <h3>Internship Management System</h3>
-              <p>Learn • Grow • Build Your Future</p>
+              <p >Learn • Grow • Build Your Future</p>
             </div>
           </header>
 
-          <div className="Ims-mentreg-middlecontent">
-            <div className="Ims-mentreg-maincontent">
+          <div className="ims-mentreg-middlecontent">
+            <div className="ims-mentreg-maincontent">
               <h2>
                 Empower the next generation of <br />
                 talent.
@@ -164,24 +164,24 @@ export const MentorRegistrationpage = () => {
             </div>
           </div>
 
-          <div className="Ims-mentreg-imagecontent">
+          <div className="ims-mentreg-imagecontent">
             <img
               src={MentorRegistermainimage}
               alt="MentorRegister mainimage"
-              className="Ims-mentreg-vectorstock"
+              className="ims-mentreg-vectorstock"
             />
 
             {/* Bottom card one */}
-            <div className="Ims-mentreg-bottomcardcontainer">
-              <div className="Ims-mentreg-bottomcard">
-                <div className="Ims-mentreg-bottomrightcard">
+            <div className="ims-mentreg-bottomcardcontainer">
+              <div className="ims-mentreg-bottomcard">
+                <div className="ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterWhiteShield}
                     alt="Mentor-white-shield"
-                    className="Ims-mentreg-whiteshield"
+                    className="ims-mentreg-whiteshield"
                   />
                 </div>
-                <div className="Ims-mentreg-bottomcontent">
+                <div className="ims-mentreg-bottomcontent">
                   <strong>Industry Impact</strong>
                   <p>
                     Bridge the gap between academic learning and real-world
@@ -192,9 +192,9 @@ export const MentorRegistrationpage = () => {
             </div>
 
             {/* Bottom card two */}
-            <div className="Ims-mentreg-bottomcardtwo-container">
-              <div className="Ims-mentreg-bottomcard">
-                <div className="Ims-mentreg-bottomrightcard">
+            <div className="ims-mentreg-bottomcardtwo-container">
+              <div className="ims-mentreg-bottomcard">
+                <div className="ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterconnections}
                     alt="Mentor-connections"
@@ -205,7 +205,7 @@ export const MentorRegistrationpage = () => {
                     }}
                   />
                 </div>
-                <div className="Ims-mentreg-bottomcontent">
+                <div className="ims-mentreg-bottomcontent">
                   <strong>Meaningful Connections</strong>
                   <p>
                     Build lasting professional relationships with ambitious
@@ -216,9 +216,9 @@ export const MentorRegistrationpage = () => {
             </div>
 
             {/* Bottom card three */}
-            <div className="Ims-mentreg-bottomcardthree-container">
-              <div className="Ims-mentreg-bottomcard">
-                <div className="Ims-mentreg-bottomrightcard">
+            <div className="ims-mentreg-bottomcardthree-container">
+              <div className="ims-mentreg-bottomcard">
+                <div className="ims-mentreg-bottomrightcard">
                   <img
                     src={MentorRegisterstars}
                     alt="Mentor-Stars-image"
@@ -229,7 +229,7 @@ export const MentorRegistrationpage = () => {
                     }}
                   />
                 </div>
-                <div className="Ims-mentreg-bottomcontent">
+                <div className="ims-mentreg-bottomcontent">
                   <strong>Personal Growth</strong>
                   <p>
                     Enhance your leadership and communication skills through
@@ -251,7 +251,7 @@ export const MentorRegistrationpage = () => {
               <label>
                 Registering As <span>*</span>
               </label>
-              <div className="Ims-role-select-wrapper">
+              <div className="ims-role-select-wrapper">
               <select value={role} onChange={(e) => setRole(e.target.value)}>
                 <option value="">Select role</option>
                 <option value="intern">Intern</option>
@@ -263,7 +263,7 @@ export const MentorRegistrationpage = () => {
                 <img
                  src={MentorDownArrow}
                  alt="Mentor Down Arrow"
-                 className="Ims-role-dropdown-arrow"
+                 className="ims-role-dropdown-arrow"
                  />
             </div>
             </div>
@@ -420,7 +420,7 @@ export const MentorRegistrationpage = () => {
                   <img
                     src={MentorDownArrow2}
                     alt="mentor down arrow2"
-                    className="Ims-role-dropdown-arrow2"
+                    className="ims-role-dropdown-arrow2"
                   />
               </div>
                 </div>{" "}

@@ -25,14 +25,14 @@
   color: #ffffff;
 }
 
-.Ims-mentreg-leftheader {
+.ims-mentreg-leftheader {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-top: 10px;
 }
 
-.Ims-mentreg-logocontainer {
+.ims-mentreg-logocontainer {
   width: 44px;
   height: 44px;
   min-width: 44px;
@@ -43,19 +43,19 @@
   align-items: center;
 }
 
-.Ims-mentreg-logocontainer img {
+.ims-mentreg-logocontainer img {
   width: 24px;
   height: 24px;
   object-fit: contain;
 }
 
-.Ims-mentreg-mainheader {
+.ims-mentreg-mainheader {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.Ims-mentreg-mainheader h3 {
+.ims-mentreg-mainheader h3 {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -65,7 +65,7 @@
   letter-spacing: -0.2px;
 }
 
-.Ims-mentreg-mainheader p {
+.ims-mentreg-mainheader p {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -75,12 +75,12 @@
   letter-spacing: 0.3px;
 }
 
-.Ims-mentreg-middlecontent {
+.ims-mentreg-middlecontent {
   display: block;
   margin-top: 20px;
 }
 
-.Ims-mentreg-maincontent h2 {
+.ims-mentreg-maincontent h2 {
   margin: 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -90,7 +90,7 @@
   letter-spacing: -0.8px;
 }
 
-.Ims-mentreg-maincontent p {
+.ims-mentreg-maincontent p {
   margin: 14px 0 0;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -99,7 +99,7 @@
   line-height: 24px;
 }
 
-.Ims-mentreg-imagecontent {
+.ims-mentreg-imagecontent {
   width: 100%;
   max-width: 650px;
   margin: 25px auto 0;
@@ -108,7 +108,7 @@
   align-items: center;
 }
 
-.Ims-mentreg-vectorstock {
+.ims-mentreg-vectorstock {
   display: block;
   width: 100%;
   max-width: 500px;
@@ -119,15 +119,15 @@
   margin: 0 0 20px;
 }
 
-.Ims-mentreg-bottomcardcontainer,
-.Ims-mentreg-bottomcardtwo-container,
-.Ims-mentreg-bottomcardthree-container {
+.ims-mentreg-bottomcardcontainer,
+.ims-mentreg-bottomcardtwo-container,
+.ims-mentreg-bottomcardthree-container {
   width: 100%;
   max-width: 550px;
   margin: 0 0 14px;
 }
 
-.Ims-mentreg-bottomcard {
+.ims-mentreg-bottomcard {
   width: 100%;
   min-height: 66px;
   padding: 10px 16px;
@@ -141,7 +141,7 @@
   backdrop-filter: blur(12px);
 }
 
-.Ims-mentreg-bottomrightcard {
+.ims-mentreg-bottomrightcard {
   width: 38px;
   height: 38px;
   min-width: 38px;
@@ -154,26 +154,26 @@
   justify-content: center;
 }
 
-.Ims-mentreg-whiteshield {
+.ims-mentreg-whiteshield {
   width: 12px;
   height: 15px;
   object-fit: contain;
 }
 
-.Ims-mentreg-bottomrightcard img {
+.ims-mentreg-bottomrightcard img {
   max-width: 18px;
   max-height: 18px;
   object-fit: contain;
 }
 
-.Ims-mentreg-bottomcontent {
+.ims-mentreg-bottomcontent {
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
-.Ims-mentreg-bottomcontent strong {
+.ims-mentreg-bottomcontent strong {
   margin: 0;
   color: #132a56;
   font-family: "Open Sans", sans-serif;
@@ -183,7 +183,7 @@
   letter-spacing: 0.3px;
 }
 
-.Ims-mentreg-bottomcontent p {
+.ims-mentreg-bottomcontent p {
   margin: 0;
   color: #111112;
   font-family: "Open Sans", sans-serif;
@@ -256,12 +256,12 @@
   color: #ef4444;
 }
 
-.Ims-role-select-wrapper {
+.ims-role-select-wrapper {
   position: relative;
   width: 100%;
 }
 
-.Ims-role-select-wrapper select {
+.ims-role-select-wrapper select {
   appearance: none;
   display: block;
   width: 100%;
@@ -279,11 +279,11 @@
   box-sizing: border-box;
 }
 
-.Ims-role-select-wrapper select:focus {
+.ims-role-select-wrapper select:focus {
   border-color: #176789;
 }
 
-.Ims-role-dropdown-arrow {
+.ims-role-dropdown-arrow {
   position: absolute;
   top: 50%;
   right: 16px;
@@ -485,7 +485,7 @@
   box-sizing: border-box;
 }
 
-.Ims-role-dropdown-arrow2 {
+.ims-role-dropdown-arrow2 {
   position: absolute;
   top: 50%;
   right: 14px;
@@ -762,22 +762,22 @@
     margin-top: 30px;
   }
 
-  .Ims-mentreg-maincontent h2 {
+  .ims-mentreg-maincontent h2 {
     font-size: 36px;
     line-height: 1.25;
   }
 
-  .Ims-mentreg-maincontent p {
+  .ims-mentreg-maincontent p {
     font-size: 15px;
     line-height: 23px;
   }
 
-  .Ims-mentreg-imagecontent {
+  .ims-mentreg-imagecontent {
     max-width: 680px;
     margin-top: 20px;
   }
 
-  .Ims-mentreg-vectorstock {
+  .ims-mentreg-vectorstock {
     max-width: 540px;
     height: 370px;
     margin-bottom: 15px;
@@ -847,18 +847,18 @@
     width: 100%;
   }
 
-  .Ims-mentreg-logocontainer {
+  .ims-mentreg-logocontainer {
     width: 40px;
     height: 40px;
     min-width: 40px;
   }
 
-  .Ims-mentreg-mainheader h3 {
+  .ims-mentreg-mainheader h3 {
     font-size: 16px;
     line-height: 21px;
   }
 
-  .Ims-mentreg-mainheader p {
+  .ims-mentreg-mainheader p {
     font-size: 10px;
     line-height: 14px;
   }
@@ -867,23 +867,23 @@
     margin-top: 22px;
   }
 
-  .Ims-mentreg-maincontent h2 {
+  .ims-mentreg-maincontent h2 {
     font-size: 29px;
     line-height: 1.22;
   }
 
-  .Ims-mentreg-maincontent p {
+  .ims-mentreg-maincontent p {
     margin-top: 8px;
     font-size: 13px;
     line-height: 19px;
   }
 
-  .Ims-mentreg-imagecontent {
+  .ims-mentreg-imagecontent {
     margin-top: 12px;
     max-width: 100%;
   }
 
-  .Ims-mentreg-vectorstock {
+  .ims-mentreg-vectorstock {
     height: 300px;
     max-width: 420px;
     width: 100%;
@@ -891,20 +891,20 @@
     margin-bottom: 8px;
   }
 
-  .Ims-mentreg-bottomcard {
+  .ims-mentreg-bottomcard {
     min-height: 54px;
     padding: 8px 11px;
     gap: 10px;
     border-radius: 10px;
   }
 
-  .Ims-mentreg-bottomrightcard {
+  .ims-mentreg-bottomrightcard {
     width: 32px;
     height: 32px;
     min-width: 32px;
   }
 
-  .Ims-mentreg-bottomcontent strong {
+  .ims-mentreg-bottomcontent strong {
     font-size: 12px;
     line-height: 16px;
   }
@@ -925,6 +925,7 @@
     width: 100%;
     max-width: 680px;
     min-width: 0;
+    margin-top: 20px;
   }
 
   .ims-mentor-header-conatiner {
@@ -950,7 +951,7 @@
     line-height: 16px;
   }
 
-  .Ims-role-select-wrapper select {
+  .ims-role-select-wrapper select {
     width: 100%;
     height: 39px;
     font-size: 12px;
@@ -1088,29 +1089,29 @@
     column-gap: 20px;
   }
 
-  .Ims-mentreg-maincontent h2 {
+  .ims-mentreg-maincontent h2 {
     font-size: 26px;
   }
 
-  .Ims-mentreg-maincontent p {
+  .ims-mentreg-maincontent p {
     font-size: 12px;
     line-height: 19px;
   }
 
-  .Ims-mentreg-vectorstock {
+  .ims-mentreg-vectorstock {
     height: 210px;
     max-width: 100%;
   }
 
-  .Ims-mentreg-bottomcard {
+  .ims-mentreg-bottomcard {
     padding: 8px;
   }
 
-  .Ims-mentreg-bottomcontent strong {
+  .ims-mentreg-bottomcontent strong {
     font-size: 11px;
   }
 
-  .Ims-mentreg-bottomcontent p {
+  .ims-mentreg-bottomcontent p {
     font-size: 9px;
     line-height: 13px;
   }
@@ -1151,7 +1152,7 @@
     width: 100%;
   }
 
-  .Ims-mentreg-mainheader h3 {
+  .ims-mentreg-mainheader h3 {
     font-size: 16px;
   }
 
@@ -1159,28 +1160,28 @@
     margin-top: 22px;
   }
 
-  .Ims-mentreg-maincontent h2 {
+  .ims-mentreg-maincontent h2 {
     font-size: 28px;
     line-height: 1.25;
   }
 
-  .Ims-mentreg-maincontent p {
+  .ims-mentreg-maincontent p {
     font-size: 13px;
     line-height: 20px;
   }
 
-  .Ims-mentreg-imagecontent {
+  .ims-mentreg-imagecontent {
     margin-top: 15px;
   }
 
-  .Ims-mentreg-vectorstock {
+  .ims-mentreg-vectorstock {
     height: 220px;
     max-width: 100%;
     object-fit: contain;
     margin-bottom: 10px;
   }
 
-  .Ims-mentreg-bottomcard {
+  .ims-mentreg-bottomcard {
     min-height: 55px;
   }
 
