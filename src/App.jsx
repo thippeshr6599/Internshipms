@@ -8,6 +8,7 @@ import { Passwordresetsucess } from "./Components-Loginpage/Passwordresetsucess"
 import { Forgetpassword } from "./Components-Loginpage/Forgetpassword";
 import { Setnewpassword } from "./Components-Loginpage/Setnewpassword";
 import { MentorRegistrationpage } from "./Components-Registration/MentorRegistrationpage";
+import { AdminRegistration } from "./Components-Registration/AdminRegistration";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path:"/MentorRegistrationpage",
     element: <MentorRegistrationpage/>,
+  },
+  {
+    path:"/AdminRegistration",
+    element: <AdminRegistration/>,
   }
 ]);
 
